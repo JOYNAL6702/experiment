@@ -5,8 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+
+    .sidebar {
+      height: 100%;
+      width: 250px;
+      position: fixed;
+      background-color: #333;
+      padding-top: 20px;
+    }
+
+    .sidebar a {
+      padding: 8px 16px;
+      text-decoration: none;
+      font-size: 18px;
+      color: #818181;
+      display: block;
+    }
+
+     .sidebar a:hover {
+      color: #f1f1f1;
+    } 
+
+    /* .content {
+      margin-left: 250px;
+      padding: 16px;
+    } */
+  </style>
 </head>
 <body>
+    <div class="sidebar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+      </div>
+      
     <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">About us</a></li>
@@ -33,5 +67,12 @@
         </li>
         <li><a href="#">contact us</a></li>
     </ul>
+    <div class="sh">
+        <form action="/search" method="get">
+            <label for="search">Search:</label>
+            <input type="text" id="search" name="q" placeholder="Enter your search query">
+            <button type="submit">Search</button>
+        </form>
+    </div>
 </body>
 </html>

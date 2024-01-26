@@ -1,17 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: hotpink;
+}
+
 ul{
-    position: relative;
+    position: ;
     padding: 0;
     margin: 0;
     height: 38px;
-    background-color: tomato;
+    left-width: px;
+    background-color: rgb(15, 53, 18);
+    background-position:right;
+    
 }
 ul li{
     list-style-type: none;
-    float: left;
+    float: right;
      border-right:1px solid rgb(249, 249, 249); 
     background-color: lightseagreen;
-    border-radius: 5px;
+    border-radius: 0px;
     width: 136px;
+    
 }
 ul li:hover{
     background-color: blue;
@@ -56,4 +68,9 @@ width: 100%;
 }
 ul li ul li ul li:hover ul{
     top: 118px;
+}
+.sh{
+    background-color: ;
+    float: right;
+    height: -5px;
 }
